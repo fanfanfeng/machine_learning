@@ -101,8 +101,8 @@ def loadDataSet(fileName):
     return dataMat,labeMat
 
 if __name__ == '__main__':
-    #dataMat,classLabels = loadSimpData()
-    #classifierArr = adaBoostTrainDS(dataMat,classLabels,9)
+    dataMat,classLabels = loadSimpData()
+    classifierArr = adaBoostTrainDS(dataMat,classLabels,9)
     #print(adaClassify([0,0],classifierArr))
     #print(adaClassify([[5, 5],[0,0]], classifierArr))
     pass
